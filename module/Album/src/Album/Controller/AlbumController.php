@@ -1,7 +1,7 @@
 <?php
 namespace Album\Controller;
 
-use Zend\Mvc\Controller\AbstractActionController;
+  use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 use Album\Model\Album;          // <-- Add this import
 use Album\Form\AlbumForm;       // <-- Add this import
@@ -17,7 +17,8 @@ class AlbumController extends AbstractActionController
         ));
     }
 
-   public function addAction()
+ 
+     public function addAction()
     {
         $form = new AlbumForm();
         $form->get('submit')->setValue('Add');
@@ -31,8 +32,7 @@ class AlbumController extends AbstractActionController
             if ($form->isValid()) {
                 $album->exchangeArray($form->getData());
                 $this->getAlbumTable()->saveAlbum($album);
-
-                // Redirect to list of albums
+              
                 return $this->redirect()->toRoute('album');
             }
         }
