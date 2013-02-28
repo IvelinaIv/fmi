@@ -3,7 +3,8 @@ return array(
     'modules' => array(
         'Application',
         'Album',  
-        'IvelinaVelcheva',      
+      'IvelinaVelcheva', 
+              
     ),
     'module_listener_options' => array(
         'config_glob_paths'    => array(
