@@ -70,7 +70,6 @@ return array(
     'controllers' => array(
         'invokables' => array(
             'Application\Controller\Index' => 'Application\Controller\IndexController',
-          'Application\Controller\Ivelina' => 'Application\Controller\IvelinaController'
         ),
     ),
     'view_manager' => array(

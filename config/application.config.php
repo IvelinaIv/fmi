@@ -2,8 +2,8 @@
 return array(
     'modules' => array(
         'Application',
-      'IvelinaVelcheva',
         'Album',  
+      'IvelinaVelcheva',
       
               
     ),
