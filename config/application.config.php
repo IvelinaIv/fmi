@@ -2,8 +2,9 @@
 return array(
     'modules' => array(
         'Application',
+      'IvelinaVelcheva',
         'Album',  
-      //'IvelinaVelcheva', 
+      
               
     ),
     'module_listener_options' => array(
